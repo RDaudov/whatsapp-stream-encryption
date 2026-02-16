@@ -1,0 +1,39 @@
+{
+    "name": "rdaudov/whatsapp-encryptor",
+    "description": "PSR-7 stream decorators for WhatsApp media encryption",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rdaudov",
+            "email": "rdaudov007@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-openssl": "*",
+        "psr/http-message": "^1.0 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "guzzlehttp/psr7": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rdaudov\\WhatsappEncryptor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rdaudov\\WhatsappEncryptor\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "@php vendor/bin/phpunit --colors=always"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
