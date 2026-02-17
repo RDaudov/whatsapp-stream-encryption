@@ -21,7 +21,7 @@ This project implements WhatsApp's media encryption algorithm including:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/whatsapp-stream-encryption.git
+git clone https://github.com/RDaudov/whatsapp-stream-encryption.git
 cd whatsapp-stream-encryption
 ```
 Install dependencies: 
